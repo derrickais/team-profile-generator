@@ -147,6 +147,7 @@ class TeamGenerator{
         `
 
         this.writeToFile("./dist/team.html", html);
+        this.copyFile("./style.css", "./dist/style.css");
     }
 
     writeToFile(fileName, data) {
@@ -154,6 +155,14 @@ class TeamGenerator{
             if(err) throw new Error(err);
     
             console.log("File Created!")
+        });
+    }
+
+    copyFile(file, fileName){
+        fs.copyFile(file, fileName, err => {
+            if(err) throw new Error(err);
+    
+            console.log("CSS Copied")
         });
     }
 }

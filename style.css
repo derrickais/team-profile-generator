@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace
+}
+
+header {
+    background-color: rgb(96, 86, 71);
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    
+}
+
+
+.card {
+    display: inline-block;
+    border: 2px solid rgb(60, 60, 60);
+    margin: 2px;
+    min-width: 32%;
+    min-height: 250px;
+    background-color: rgb(164, 159, 159);
+}
+
+.heading {
+    background-color: rgb(210, 189, 157);
+    border-radius: 100%;
+    margin: 6px;
+    text-align: center;
+}
+
+.role {
+    font-size: 25px;
+}
+
+.content{
+    text-align: center;
+    margin-top: 30px;
+}
