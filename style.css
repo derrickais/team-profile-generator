@@ -19,6 +19,7 @@ header {
     min-width: 32%;
     min-height: 250px;
     background-color: rgb(164, 159, 159);
+    box-shadow: 10px 5px 5px rgba(164, 159, 159,.7);
 }
 
 .heading {
